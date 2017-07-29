@@ -22,7 +22,7 @@ var bot = new builder.UniversalBot(connector, [
 //	builder.Prompts.text(session, "How many people are in your party?");
 
    function (session) {
-        builder.Prompts.text(session, 'Hi! What is your name?');
+        builder.Prompts.text(session, 'Hi! I am Saurav. What is your name?');
     },
     // Step 2
     function (session, results) {
